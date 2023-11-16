@@ -68,6 +68,7 @@ void insertar_Antes(lista_cab *l, Libro lib){
     Libro liAux = l->actual->li;
     l->actual->li = lib;
     insertar_Despues(l,liAux);
+    l->len++;
 }
 
 void eliminar(lista_cab *l, Libro *lib) {

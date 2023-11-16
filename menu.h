@@ -36,14 +36,14 @@ void mostrarListados()
     printf("\n--- Menu Listar Datos ---\n");
     printf("1. Listar todos los autores existentes\n");
     printf("2. Listar todos los libros existentes\n");
-    printf("3. Listar todos los libros de un género determinado.\n");
+    printf("3. Listar todos los libros de un genero determinado.\n");
     printf("4. Listar todos los libros que posee un autor determinado.\n");
     printf("5. Listar todos los libros de una editorial determinada.\n");
-    printf("6. Listar todos los libros de una editorial determinada en un rango de años de edición.\n ");
+    printf("6. Listar todos los libros de una editorial determinada en un rango de anos de edicion.\n ");
     printf("7. Listar todos los autores de una determinada editorial.\n");
-    printf("8. Listar todos los libros que fueron editados en un determinado año.\n");
+    printf("8. Listar todos los libros que fueron editados en un determinado ano.\n");
     printf("9. Listar todos los libros de los autores cuyos apellidos comienzan con una letra determinada. \n");
-    printf("10. Listar todos los libros cuyos títulos contengan una palabra determinada. ");
+    printf("10. Listar todos los libros cuyos titulos contengan una palabra determinada.\n ");
 }
 
 void modificadorMenu()
